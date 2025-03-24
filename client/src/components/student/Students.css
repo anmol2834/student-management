@@ -1,0 +1,59 @@
+
+.students {
+    padding: 20px;
+  }
+  
+  .students-title {
+    color: #2c3e50;
+    margin-bottom: 30px;
+  }
+  
+  .students-list {
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .no-students {
+    text-align: center;
+    color: #666;
+  }
+  
+  .students-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .students-table th,
+  .students-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .students-table th {
+    background: #f8f9fa;
+    color: #2c3e50;
+  }
+  
+  .delete-btn {
+    background: #e74c3c;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .delete-btn:hover {
+    background: #c0392b;
+  }
+  
+  @media (max-width: 768px) {
+    .students-table {
+      display: block;
+      overflow-x: auto;
+    }
+  }

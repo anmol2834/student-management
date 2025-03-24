@@ -1,0 +1,66 @@
+
+
+.add-student {
+    padding: 20px;
+  }
+  
+  .add-student-title {
+    color: #2c3e50;
+    margin-bottom: 30px;
+  }
+  
+  .student-form {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 8px;
+    color: #2c3e50;
+    font-weight: 500;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: border-color 0.3s;
+  }
+  
+  .form-group input:focus {
+    border-color: #2c3e50;
+    outline: none;
+  }
+  
+  .submit-btn {
+    background: #2c3e50;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 1rem;
+    transition: background 0.3s;
+  }
+  
+  .submit-btn:hover {
+    background: #34495e;
+  }
+  
+  @media (max-width: 768px) {
+    .student-form {
+      padding: 20px;
+    }
+  }
